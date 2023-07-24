@@ -1,0 +1,97 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_find_package",
+			"find_package",
+			"add_dependencies",
+			"add_mlir_doc"
+		],
+		"files" : 
+		[
+			"F:/llvm-12/lib/cmake/mlir/MLIRConfig.cmake",
+			"D:/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"CMakeLists.txt",
+			"F:/llvm-12/lib/cmake/mlir/AddMLIR.cmake",
+			"Dialect/include/Quantum/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 824,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 3,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "QuantumOpsDocGen::@8126a0339dc6883deeb0"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "QuantumDialectDocGen::@8126a0339dc6883deeb0"
+		}
+	],
+	"id" : "mlir-doc::@6890427a1f51a3e7e1df",
+	"name" : "mlir-doc",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

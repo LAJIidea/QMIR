@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13
+					]
+				},
+				{
+					"build" : "Dialect",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Dialect-Debug-7f76beacdf1dd634f8e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Dialect"
+				},
+				{
+					"build" : "Dialect/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-Dialect.include-Debug-c3ffc621365cbbf5d346.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Dialect/include"
+				},
+				{
+					"build" : "Dialect/include/Quantum",
+					"jsonFile" : "directory-Dialect.include.Quantum-Debug-da31be2f76e05e8e8bda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Dialect/include/Quantum",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Dialect/lib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Dialect.lib-Debug-becd0489dce0b93ea583.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Dialect/lib"
+				},
+				{
+					"build" : "Dialect/lib/Quantum",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Dialect.lib.Quantum-Debug-d525b8d2475e22a230a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "Dialect/lib/Quantum",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						12
+					]
+				},
+				{
+					"build" : "Parser",
+					"jsonFile" : "directory-Parser-Debug-f643defecf7e67e8cb79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Parser",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6
+					],
+					"name" : "QMLIR",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Dialect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-MLIRQuantum-Debug-34cbac631622e04ab63c.json",
+					"name" : "MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MLIRQuantumOpsIncGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-MLIRQuantumOpsIncGen-Debug-5c9c41aed84d217b2c04.json",
+					"name" : "MLIRQuantumOpsIncGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QuantumDialectDocGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-QuantumDialectDocGen-Debug-b390e41e17d2ef6afac4.json",
+					"name" : "QuantumDialectDocGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QuantumOpsDocGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-QuantumOpsDocGen-Debug-0073d7553a4816db554e.json",
+					"name" : "QuantumOpsDocGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-Debug-9423983f778ad3895fd3.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-install-MLIRQuantum-Debug-7a6f3ddd838cf54568b1.json",
+					"name" : "install-MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-MLIRQuantum-stripped::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-install-MLIRQuantum-stripped-Debug-c707c30629e6be6bada4.json",
+					"name" : "install-MLIRQuantum-stripped",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-68cbd8cdb1ebfbe96f1a.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-doc-Debug-ba7fcd77ed3ecaa03483.json",
+					"name" : "mlir-doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-generic-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-generic-headers-Debug-74146424a04e8bd94d4a.json",
+					"name" : "mlir-generic-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-headers-Debug-adcfad3c6649623e4f24.json",
+					"name" : "mlir-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-tablegen-targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-tablegen-targets-Debug-66f3fda74f82e3c6ad2a.json",
+					"name" : "mlir-tablegen-targets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "obj.MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-obj.MLIRQuantum-Debug-b62ef00d9cca678333e8.json",
+					"name" : "obj.MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-Debug-94e5163783aef743eb24.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "qmir::@74bff9814a543eacbe93",
+					"jsonFile" : "target-qmir-Debug-d75b99c8fd6b8cc4dd7e.json",
+					"name" : "qmir",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/LLVMWorkspace/QMIR/out/build/x64-Debug",
+		"source" : "D:/LLVMWorkspace/QMIR"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

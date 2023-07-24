@@ -1,0 +1,110 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_llvm_install_targets",
+			"add_mlir_library_install",
+			"add_mlir_library",
+			"add_mlir_dialect_library",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/LLVM/llvm/install/lib/cmake/llvm/AddLLVM.cmake",
+			"D:/LLVM/llvm/install/lib/cmake/mlir/AddMLIR.cmake",
+			"Dialect/lib/Quantum/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 157,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 697,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 713,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "MLIRQuantum::@3d4f84a1663e24080c90"
+		}
+	],
+	"id" : "install-MLIRQuantum::@3d4f84a1663e24080c90",
+	"name" : "install-MLIRQuantum",
+	"paths" : 
+	{
+		"build" : "Dialect/lib/Quantum",
+		"source" : "Dialect/lib/Quantum"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/lib/Quantum/CMakeFiles/install-MLIRQuantum",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/lib/Quantum/CMakeFiles/install-MLIRQuantum.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

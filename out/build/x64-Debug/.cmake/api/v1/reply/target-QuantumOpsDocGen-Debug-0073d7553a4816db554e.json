@@ -1,0 +1,88 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_mlir_doc"
+		],
+		"files" : 
+		[
+			"F:/llvm-12/lib/cmake/mlir/AddMLIR.cmake",
+			"Dialect/include/Quantum/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "QuantumOpsDocGen::@8126a0339dc6883deeb0",
+	"name" : "QuantumOpsDocGen",
+	"paths" : 
+	{
+		"build" : "Dialect/include/Quantum",
+		"source" : "Dialect/include/Quantum"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/Dialect/include/Quantum/CMakeFiles/QuantumOpsDocGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/Dialect/include/Quantum/CMakeFiles/QuantumOpsDocGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/docs/Quantum/QuantumOps.md.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Debug/Dialect/include/Quantum/QuantumOps.md.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

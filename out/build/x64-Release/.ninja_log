@@ -1,0 +1,15 @@
+# ninja log v5
+46	143	6574710041046411	Dialect/include/Quantum/QuantumOpsDialect.h.inc	a39765bc30a96035
+143	3092	6574710070366018	Dialect/lib/Quantum/CMakeFiles/obj.MLIRQuantum.dir/QuantumDialect.cpp.obj	77e3fc678d91a761
+231	4023	6574710079745800	Parser/CMakeFiles/qmir.dir/MLIRGen.cpp.obj	64209a3be11649c2
+11	140	6574710041016413	Dialect/include/Quantum/QuantumOps.cpp.inc	a8422342e9baabbc
+3198	3446	6574710073745942	lib/MLIRQuantum.lib	e29e9c1381704927
+29	134	6574710040946390	Dialect/include/Quantum/QuantumOps.h.inc	dec389e9ea43aff4
+166	3198	6574710071485940	Dialect/lib/Quantum/CMakeFiles/obj.MLIRQuantum.dir/QuantumOps.cpp.obj	3b81d91850742a34
+0	17	0	clean	d589eb1942897cb4
+190	4796	6574710087395698	Parser/CMakeFiles/qmir.dir/compiler.cpp.obj	92cac161a27a4610
+4897	7856	6574710116545224	bin/qmir.exe	d07e0e29d19dd5f9
+163	3480	6574578063878836	optimizations/CMakeFiles/quantum-pass.dir/PairRemovePass.cpp.obj	28271528338e1592
+3480	4191	6574578063878836	bin/quantum-pass.dll	f1e28725bb54cb5e
+3066	3671	6574563760916414	optimizations/quantum-pass.dll	a3e311db95041603
+211	4897	6574710088515677	Parser/CMakeFiles/qmir.dir/PairRemovePass.cpp.obj	cbd1678e7b221a09

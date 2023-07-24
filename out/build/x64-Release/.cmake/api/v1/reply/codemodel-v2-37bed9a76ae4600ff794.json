@@ -1,0 +1,296 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13
+					]
+				},
+				{
+					"build" : "Dialect",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Dialect"
+				},
+				{
+					"build" : "Dialect/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Dialect/include"
+				},
+				{
+					"build" : "Dialect/include/Quantum",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Dialect/include/Quantum",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Dialect/lib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Dialect/lib"
+				},
+				{
+					"build" : "Dialect/lib/Quantum",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "Dialect/lib/Quantum",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						12
+					]
+				},
+				{
+					"build" : "Parser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Parser",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						6
+					],
+					"name" : "QMLIR",
+					"targetIndexes" : 
+					[
+						4,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "Dialect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-MLIRQuantum-RelWithDebInfo-cb1e943b9c9425d22a1e.json",
+					"name" : "MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "MLIRQuantumOpsIncGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-MLIRQuantumOpsIncGen-RelWithDebInfo-3da90b1580b8f39b3d51.json",
+					"name" : "MLIRQuantumOpsIncGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QuantumDialectDocGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-QuantumDialectDocGen-RelWithDebInfo-7165f4e246254e098e6a.json",
+					"name" : "QuantumDialectDocGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "QuantumOpsDocGen::@8126a0339dc6883deeb0",
+					"jsonFile" : "target-QuantumOpsDocGen-RelWithDebInfo-7ca5ec1a1773fd37369c.json",
+					"name" : "QuantumOpsDocGen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "acc_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-acc_gen-RelWithDebInfo-9464a60318ea8fd9f0a6.json",
+					"name" : "acc_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-install-MLIRQuantum-RelWithDebInfo-a3ce92b8d193958fbf64.json",
+					"name" : "install-MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "install-MLIRQuantum-stripped::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-install-MLIRQuantum-stripped-RelWithDebInfo-63d003902551a4087ecc.json",
+					"name" : "install-MLIRQuantum-stripped",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-RelWithDebInfo-e850d3dccd501f1e1218.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-doc-RelWithDebInfo-abf7c674fe5bb940cbdf.json",
+					"name" : "mlir-doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-generic-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-generic-headers-RelWithDebInfo-45e47a3e239b6f4b238e.json",
+					"name" : "mlir-generic-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-headers-RelWithDebInfo-22550943e68675a873a3.json",
+					"name" : "mlir-headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mlir-tablegen-targets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mlir-tablegen-targets-RelWithDebInfo-5e051b127362e9091a56.json",
+					"name" : "mlir-tablegen-targets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "obj.MLIRQuantum::@3d4f84a1663e24080c90",
+					"jsonFile" : "target-obj.MLIRQuantum-RelWithDebInfo-a7102b835d4436b50e0e.json",
+					"name" : "obj.MLIRQuantum",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omp_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omp_gen-RelWithDebInfo-10194f1d724953e4beff.json",
+					"name" : "omp_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "qmir::@74bff9814a543eacbe93",
+					"jsonFile" : "target-qmir-RelWithDebInfo-e5712cf85225a7137edc.json",
+					"name" : "qmir",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/LLVMWorkspace/QMIR/out/build/x64-Release",
+		"source" : "D:/LLVMWorkspace/QMIR"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

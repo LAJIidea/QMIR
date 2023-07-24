@@ -1,0 +1,88 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_mlir_doc"
+		],
+		"files" : 
+		[
+			"D:/LLVM/llvm/install/lib/cmake/mlir/AddMLIR.cmake",
+			"Dialect/include/Quantum/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "QuantumDialectDocGen::@8126a0339dc6883deeb0",
+	"name" : "QuantumDialectDocGen",
+	"paths" : 
+	{
+		"build" : "Dialect/include/Quantum",
+		"source" : "Dialect/include/Quantum"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/include/Quantum/CMakeFiles/QuantumDialectDocGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/include/Quantum/CMakeFiles/QuantumDialectDocGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/docs/Quantum/QuantumDialect.md.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/include/Quantum/QuantumDialect.md.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

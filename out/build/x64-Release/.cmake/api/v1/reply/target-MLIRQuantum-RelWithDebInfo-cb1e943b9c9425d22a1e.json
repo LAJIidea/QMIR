@@ -1,0 +1,245 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/MLIRQuantum.lib"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_dialect_library",
+			"install",
+			"add_mlir_library_install",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"D:/LLVM/llvm/install/lib/cmake/llvm/AddLLVM.cmake",
+			"D:/LLVM/llvm/install/lib/cmake/mlir/AddMLIR.cmake",
+			"Dialect/lib/Quantum/CMakeLists.txt",
+			"D:/LLVM/llvm/install/lib/cmake/llvm/HandleLLVMOptions.cmake",
+			"CMakeLists.txt",
+			"Dialect/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 169,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 527,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 652,
+				"parent" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 32,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 418,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 407,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 798,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 799,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 800,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 36,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 37,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 27,
+				"parent" : 20
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 28,
+				"parent" : 20
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "mlir-headers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mlir-generic-headers::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "obj.MLIRQuantum::@3d4f84a1663e24080c90"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRQuantumOpsIncGen::@8126a0339dc6883deeb0"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRQuantum::@3d4f84a1663e24080c90",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/LLVMWorkspace/QMIR/out/install/x64-Release"
+		}
+	},
+	"name" : "MLIRQuantum",
+	"nameOnDisk" : "MLIRQuantum.lib",
+	"paths" : 
+	{
+		"build" : "Dialect/lib/Quantum",
+		"source" : "Dialect/lib/Quantum"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/lib/Quantum/CMakeFiles/obj.MLIRQuantum.dir/QuantumDialect.cpp.obj",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "out/build/x64-Release/Dialect/lib/Quantum/CMakeFiles/obj.MLIRQuantum.dir/QuantumOps.cpp.obj",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,1083 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/qmir.exe"
+		},
+		{
+			"path" : "bin/qmir.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"target_link_libraries",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"D:/LLVM/llvm/install/lib/cmake/llvm/AddLLVM.cmake",
+			"Parser/CMakeLists.txt",
+			"D:/LLVM/llvm/install/lib/cmake/llvm/HandleLLVMOptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 823,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 842,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 32,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 418,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 407,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 798,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 799,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 800,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 34,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 36,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3   /Zc:inline /Zc:strictStrings /Oi /Zc:rvalueCast -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /Zi /O2 /Ob1 /DNDEBUG   -D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -DUNICODE -D_UNICODE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS"
+				},
+				{
+					"fragment" : " /EHs-c- /GR-"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_CRT_NONSTDC_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_CRT_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_HAS_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_SCL_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "D:/LLVM/llvm/install/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "D:/LLVMWorkspace/QMIR/include"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "D:/LLVMWorkspace/QMIR/out/build/x64-Release/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/LLVMWorkspace/QMIR/optimizations"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "D:/LLVMWorkspace/QMIR/Parser/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/LLVMWorkspace/QMIR/Parser/."
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/LLVMWorkspace/QMIR/Parser/../Dialect/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/LLVMWorkspace/QMIR/out/build/x64-Release/Dialect/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "MLIRQuantum::@3d4f84a1663e24080c90"
+		}
+	],
+	"id" : "qmir::@74bff9814a543eacbe93",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3   /Zc:inline /Zc:strictStrings /Oi /Zc:rvalueCast -wd4141 -wd4146 -wd4244 -wd4267 -wd4291 -wd4351 -wd4456 -wd4457 -wd4458 -wd4459 -wd4503 -wd4624 -wd4722 -wd4100 -wd4127 -wd4512 -wd4505 -wd4610 -wd4510 -wd4702 -wd4245 -wd4706 -wd4310 -wd4701 -wd4703 -wd4389 -wd4611 -wd4805 -wd4204 -wd4577 -wd4091 -wd4592 -wd4319 -wd4709 -wd4324 -w14062 -we4238 /Gw /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /STACK:10000000 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineEDSC.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAVX512.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPU.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgEDSC.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMIRTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMAVX512.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRNVVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRROCDLIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIROpenMP.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRQuant.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCF.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCFTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSDBM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRShape.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRShapeOpsTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRV.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRVSerialization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRVTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardOpsTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVector.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\lib\\MLIRQuantum.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineToStandard.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAVX512ToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPUToGPURuntimeTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPUToNVVMTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPUToROCDLTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPUToSPIRVTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPUToVulkanTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgToSPIRVTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgToStandard.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCFToGPU.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCFToSPIRV.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCFToStandard.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRShapeToSCF.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRShapeToStandard.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRVToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardToSPIRVTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVectorToROCDL.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVectorToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVectorToSCF.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIROptLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\lib\\MLIRQuantum.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTargetLLVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRExecutionEngine.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMLinker.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRCallInterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRParser.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRPass.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSideEffectInterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAVX512.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMAVX512.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRNVVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRROCDLIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRVSerialization.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVectorToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgEDSC.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineEDSC.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRGPU.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineToStandard.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRShape.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRDialect.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSPIRV.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardToLLVM.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLinalgOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVector.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTransformUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLoopAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRCopyOpInterface.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTargetLLVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTargetLLVMIRModuleTranslation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMIRTransforms.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRPass.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRAffineOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSCF.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRStandardOps.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRViewLikeInterface.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRVectorUnrollInterface.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIREDSC.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLoopLikeInterface.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRInferTypeOpInterface.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRPresburger.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRLLVMIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIROpenMP.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRCallInterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSideEffectInterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRControlFlowInterfaces.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRTranslation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRParser.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRIR.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\MLIRSupport.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMOrcJIT.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMExecutionEngine.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMRuntimeDyld.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMOrcError.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMPasses.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMCoroutines.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMJITLink.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMX86CodeGen.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMAsmPrinter.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMDebugInfoDWARF.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMCFGuard.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMGlobalISel.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMSelectionDAG.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMCodeGen.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMTarget.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMX86Desc.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMMCDisassembler.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMX86Info.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMipo.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMLinker.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMBitWriter.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMFrontendOpenMP.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMIRReader.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMAsmParser.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMScalarOpts.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMAggressiveInstCombine.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMInstCombine.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMVectorize.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMInstrumentation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMTransformUtils.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMAnalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMObject.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMBitReader.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMMCParser.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMMC.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMDebugInfoCodeView.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMDebugInfoMSF.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMTextAPI.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMProfileData.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMCore.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMBinaryFormat.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMRemarks.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMBitstreamReader.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMSupport.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "psapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "shell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "uuid.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "delayimp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-delayload:shell32.dll",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-delayload:ole32.dll",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\LLVM\\llvm\\install\\lib\\LLVMDemangle.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "qmir",
+	"nameOnDisk" : "qmir.exe",
+	"paths" : 
+	{
+		"build" : "Parser",
+		"source" : "Parser"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Parser/compiler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Parser/MLIRGen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Parser/PairRemovePass.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
